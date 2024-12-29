@@ -1,0 +1,155 @@
+{
+    "tables": [
+        {
+            "schema": "",
+            "table": "daily_menu",
+            "columns": [
+                {
+                    "name": "user_id",
+                    "type": "int"
+                },
+                {
+                    "name": "day",
+                    "type": "int"
+                },
+                {
+                    "name": "breakfast_product_name",
+                    "type": "text"
+                },
+                {
+                    "name": "lunch_product_name",
+                    "type": "text"
+                },
+                {
+                    "name": "dinner_product_name",
+                    "type": "text"
+                }
+            ],
+            "primaryKey": {
+                "columns": [
+                    "user_id",
+                    "day"
+                ]
+            }
+        },
+        {
+            "schema": "",
+            "table": "regime",
+            "columns": [
+                {
+                    "name": "regime_id",
+                    "type": "int"
+                },
+                {
+                    "name": "name",
+                    "type": "text"
+                },
+                {
+                    "name": "description",
+                    "type": "text",
+                    "nullable": true
+                },
+                {
+                    "name": "max_proteins_g_day",
+                    "type": "double"
+                },
+                {
+                    "name": "max_fat_g_day",
+                    "type": "double"
+                },
+                {
+                    "name": "max_carbohydrates_g_day",
+                    "type": "double"
+                }
+            ],
+            "primaryKey": {
+                "columns": [
+                    "regime_id"
+                ]
+            }
+        },
+        {
+            "schema": "",
+            "table": "user",
+            "columns": [
+                {
+                    "name": "user_id",
+                    "type": "int"
+                },
+                {
+                    "name": "first_name",
+                    "type": "text",
+                    "nullable": true
+                },
+                {
+                    "name": "last_name",
+                    "type": "text",
+                    "nullable": true
+                },
+                {
+                    "name": "age",
+                    "type": "int",
+                    "nullable": true,
+                    "default": "NULL"
+                },
+                {
+                    "name": "gender",
+                    "type": "text",
+                    "nullable": true
+                },
+                {
+                    "name": "weight",
+                    "type": "double",
+                    "nullable": true,
+                    "default": "NULL"
+                },
+                {
+                    "name": "country",
+                    "type": "text"
+                },
+                {
+                    "name": "regime_id",
+                    "type": "int"
+                }
+            ],
+            "primaryKey": {
+                "columns": [
+                    "user_id"
+                ]
+            },
+            "indexes": [
+                {
+                    "name": "FK_REGIME",
+                    "columns": [
+                        "regime_id"
+                    ],
+                    "definition": "KEY `FK_REGIME` (`regime_id`)"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "name": "FK_USER",
+            "src": {
+                "table": "daily_menu",
+                "column": "user_id"
+            },
+            "ref": {
+                "table": "user",
+                "column": "user_id"
+            }
+        },
+        {
+            "name": "FK_REGIME",
+            "src": {
+                "table": "user",
+                "column": "regime_id"
+            },
+            "ref": {
+                "table": "regime",
+                "column": "regime_id"
+            }
+        }
+    ]
+}
