@@ -1,5 +1,19 @@
 <div align="center">
   <img src="https://world.openfoodfacts.org/images/logos/logo-variants/RVB_HORIZONTAL_BLACK_BG_OFF.svg" alt="off-banner" />
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub forks](https://img.shields.io/github/forks/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub stars](https://img.shields.io/github/stars/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/Foufou-exe/openfoodfacts-etl)]()
+</div>
+
+<div align="center">
+
+[🇫🇷 Français](./README.fr.md) | [🇬🇧 English](./README.md)
+
 </div>
 
 

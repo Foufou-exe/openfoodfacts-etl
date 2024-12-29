@@ -1,7 +1,7 @@
 # Diagramme Entité-Relation (ERD) avec Azimutt
 <div align="center">
 
-[**EN**](README.md) | [**FR**](./README.fr.md)
+[🇫🇷 Français](./README.fr.md) | [🇬🇧 English](./README.md)
 
 </div>
 

@@ -1,3 +1,22 @@
+<div align="center">
+  <img src="https://world.openfoodfacts.org/images/logos/logo-variants/RVB_HORIZONTAL_BLACK_BG_OFF.svg" alt="off-banner" />
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub forks](https://img.shields.io/github/forks/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub stars](https://img.shields.io/github/stars/Foufou-exe/openfoodfacts-etl)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/Foufou-exe/openfoodfacts-etl)]()
+</div>
+
+<div align="center">
+
+[🇫🇷 Français](./README.fr.md) | [🇬🇧 English](./README.md)
+
+</div>
+
+
 # 🍽️ Openfoodfacts ETL Project
 
 This project aims to set up a distributed ETL (Extract, Transform, Load) solution to randomly generate food menus tailored to users' needs, using data available on OpenFoodFacts.
@@ -121,17 +140,18 @@ openfoodfacts-etl
 For more information about the project, please refer to the documentation available in the docs/ folder. See below the different parts of the documentation:  
 
 <details>
-<summary> 📚 Conceptual Data Model (CDM) Diagram </summary> 
-<img src="./docs/diagram/diagram-openfoodfacts.png" alt="CDM Diagram"/>  
+    <summary> 📚 Conceptual Data Model (CDM) Diagram </summary> 
+    <img src="./docs/diagram/diagram-openfoodfacts.png" alt="CDM Diagram"/>  
 </details> 
 
 <details>
-<summary> 📚 Project Schema </summary>
-<img src="./docs/schemas/schema-openfoodfacts.png" alt="Project Schema"/>
+    <summary> 📚 Project Schema </summary>
+    <img src="./docs/schemas/schema-openfoodfacts.png" alt="Project Schema"/>
 </details>
 
 <details>
-<summary> 📚 Project Workflows </summary> <img src="./docs/schemas/workflows-openfoodfacts.png" alt="Project Workflows"/>
+    <summary> 📚 Project Workflows </summary>
+    <img src="./docs/schemas/workflows-openfoodfacts.png" alt="Project Workflows"/>
 </details>
 
 ## 📌 Author
