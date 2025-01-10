@@ -168,6 +168,28 @@ Voir ci-dessous les différentes parties de la documentation :
 
 </details>
 
+
+## 🔥 Resultats
+
+Après l'exécution du projet, les données seront stockées dans la base de données MySQL. Voici un aperçu des tables créées :
+
+<details>
+    <summary> 📊 Table user</summary>
+    <img src="./docs/images/table_user.png" alt="Table user"/>
+</details>
+
+<details>
+    <summary> 📊 Table daily_menu </summary>
+    <img src="./docs/images/table_daily_menu.png" alt="Table daily_menu"/>
+</details>
+
+<details>
+    <summary> 📊 Table regime </summary>
+    <img src="./docs/images/table_regime.png" alt="Table regime"/>
+</details>
+
+
+
 ## 📌 Auteur
 - [**Thibaut Maurras**](https://github.com/Foufou-exe)
 - [**Akkhaladeth SOULISOMPHOU**]()

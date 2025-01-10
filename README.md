@@ -154,6 +154,26 @@ For more information about the project, please refer to the documentation availa
     <img src="./docs/schemas/workflows-openfoodfacts.png" alt="Project Workflows"/>
 </details>
 
+## 🔥 Features
+
+After running the project, the data will be stored in the MySQL database. Here is an overview of the created tables:
+
+<details>
+    <summary> 📊 Table user</summary>
+    <img src="./docs/images/table_user.png" alt="Table user"/>
+</details>
+
+<details>
+    <summary> 📊 Table daily_menu </summary>
+    <img src="./docs/images/table_daily_menu.png" alt="Table daily_menu"/>
+</details>
+
+<details>
+    <summary> 📊 Table regime </summary>
+    <img src="./docs/images/table_regime.png" alt="Table regime"/>
+</details>
+
+
 ## 📌 Author
 - Thibaut Maurras
 - Akkhaladeth SOULISOMPHOU
